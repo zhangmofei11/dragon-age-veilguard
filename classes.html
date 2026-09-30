@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes Guide - Dragon Age: Veilguard Wiki</title>
+    <meta name="description" content="Complete Dragon Age: Veilguard classes guide. All classes, specializations, and abilities for PC and consoles.">
+    <meta name="keywords" content="Dragon Age Veilguard classes, Veilguard mage, Veilguard warrior, Veilguard rogue, specializations">
+    <link rel="canonical" href="https://dragon-age-veilguard.wiki/classes.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dav: { 500: '#8B5CF6', 600: '#7C3AED', 700: '#6D28D9' },
+                        dark: { 900: '#0a0a10', 800: '#12121a', 700: '#1a1a25' }
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0a10 0%, #12121a 50%, #0a0a10 100%); min-height: 100vh; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 40px rgba(139, 92, 246, 0.3); }
+    </style>
+</head>
+<body class="font-inter text-gray-100">
+    <header class="bg-dark-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-dav-500 to-dav-700 rounded-lg flex items-center justify-center">
+                        <span class="font-cinzel font-bold text-white text-lg">DA</span>
+                    </div>
+                    <span class="font-cinzel font-bold text-xl text-white hidden sm:block">Dragon Age: Veilguard</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-gray-300 hover:text-dav-500 transition-colors">Home</a>
+                    <a href="classes.html" class="text-dav-500 hover:text-dav-400 transition-colors font-medium">Classes</a>
+                    <a href="companions.html" class="text-gray-300 hover:text-dav-500 transition-colors">Companions</a>
+                    <a href="builds.html" class="text-gray-300 hover:text-dav-500 transition-colors">Builds</a>
+                    <a href="walkthrough.html" class="text-gray-300 hover:text-dav-500 transition-colors">Walkthrough</a>
+                    <a href="tips.html" class="text-gray-300 hover:text-dav-500 transition-colors">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="mb-8">
+            <h1 class="font-cinzel text-4xl font-bold text-white mb-4">Classes Guide</h1>
+            <p class="text-gray-400">Choose your class and master your abilities.</p>
+        </div>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Base Classes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-dav-500/30 p-6">
+                    <h3 class="font-cinzel text-xl font-bold text-dav-400 mb-3">Mage</h3>
+                    <p class="text-gray-400 text-sm mb-4">Master of arcane magic. Devastating elemental attacks and powerful buffs.</p>
+                    <ul class="text-gray-300 text-sm space-y-1">
+                        <li>• Fire, Ice, Lightning spells</li>
+                        <li>• Healing and barrier magic</li>
+                        <li>• High damage, low defense</li>
+                    </ul>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-red-500/30 p-6">
+                    <h3 class="font-cinzel text-xl font-bold text-red-400 mb-3">Warrior</h3>
+                    <p class="text-gray-400 text-sm mb-4">Master of combat. Heavy weapons and shield techniques.</p>
+                    <ul class="text-gray-300 text-sm space-y-1">
+                        <li>• Sword and shield combat</li>
+                        <li>• Taunt and protect allies</li>
+                        <li>• High defense, steady damage</li>
+                    </ul>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-green-500/30 p-6">
+                    <h3 class="font-cinzel text-xl font-bold text-green-400 mb-3">Rogue</h3>
+                    <p class="text-gray-400 text-sm mb-4">Master of stealth. Fast attacks and critical strikes.</p>
+                    <ul class="text-gray-300 text-sm space-y-1">
+                        <li>• Dual wielding daggers</li>
+                        <li>• Backstab and stealth</li>
+                        <li>• High crit, glass cannon</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Mage Specializations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-orange-400 mb-3">Primal</h3>
+                    <p class="text-gray-400 text-sm mb-3">Elemental magic focused on fire, ice, and lightning.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Inferno: Fire-based attacks</li>
+                        <li>• Winter's Grasp: Ice spells</li>
+                        <li>• Tempest: Lightning storm</li>
+                    </ul>
+                </div>
+
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-purple-400 mb-3">Spellblade</h3>
+                    <p class="text-gray-400 text-sm mb-3">Hybrid mage that combines magic with melee combat.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Magic-infused melee attacks</li>
+                        <li>• Spell combos</li>
+                        <li>• Close-range powerhouse</li>
+                    </ul>
+                </div>
+
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-blue-400 mb-3">Veilweaver</h3>
+                    <p class="text-gray-400 text-sm mb-3">Manipulates the Fade for reality-bending abilities.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Barrier manipulation</li>
+                        <li>• Mind control</li>
+                        <li>• Spirit summoning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Warrior Specializations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Champion</h3>
+                    <p class="text-gray-400 text-sm mb-3">Defensive warrior focused on protecting allies.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Shield expertise</li>
+                        <li>• Taunt enemies</li>
+                        <li>• Team survivability</li>
+                    </ul>
+                </div>
+
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-yellow-400 mb-3">Destroyer</h3>
+                    <p class="text-gray-400 text-sm mb-3">Offensive warrior with heavy two-handed weapons.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Massive damage输出</li>
+                        <li>• Crowd control</li>
+                        <li>• Slow but powerful</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Rogue Specializations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-gray-300 mb-3">Assassin</h3>
+                    <p class="text-gray-400 text-sm mb-3">Pure damage dealer focused on stealth kills.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Backstab bonuses</li>
+                        <li>• Critical damage</li>
+                        <li>• Stealth mechanics</li>
+                    </ul>
+                </div>
+
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-cyan-400 mb-3">Artificer</h3>
+                    <p class="text-gray-400 text-sm mb-3">Rogue with traps, bombs, and ranged attacks.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Explosive devices</li>
+                        <li>• Ranged poison attacks</li>
+                        <li>• Utility focused</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dragon Age: Veilguard Wiki. Not affiliated with BioWare/EA.</p>
+        </div>
+    </footer>
+</body>
+</html>

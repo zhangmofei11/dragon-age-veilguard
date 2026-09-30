@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builds Guide - Dragon Age: Veilguard Wiki</title>
+    <meta name="description" content="Complete Dragon Age: Veilguard builds guide. Best builds for Mage, Warrior, and Rogue classes.">
+    <meta name="keywords" content="Dragon Age Veilguard builds, Veilguard best build, mage build, warrior build, rogue build">
+    <link rel="canonical" href="https://dragon-age-veilguard.wiki/builds.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dav: { 500: '#8B5CF6', 600: '#7C3AED', 700: '#6D28D9' },
+                        dark: { 900: '#0a0a10', 800: '#12121a', 700: '#1a1a25' }
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0a10 0%, #12121a 50%, #0a0a10 100%); min-height: 100vh; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 40px rgba(139, 92, 246, 0.3); }
+    </style>
+</head>
+<body class="font-inter text-gray-100">
+    <header class="bg-dark-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-dav-500 to-dav-700 rounded-lg flex items-center justify-center">
+                        <span class="font-cinzel font-bold text-white text-lg">DA</span>
+                    </div>
+                    <span class="font-cinzel font-bold text-xl text-white hidden sm:block">Dragon Age: Veilguard</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-gray-300 hover:text-dav-500 transition-colors">Home</a>
+                    <a href="classes.html" class="text-gray-300 hover:text-dav-500 transition-colors">Classes</a>
+                    <a href="companions.html" class="text-gray-300 hover:text-dav-500 transition-colors">Companions</a>
+                    <a href="builds.html" class="text-dav-500 hover:text-dav-400 transition-colors font-medium">Builds</a>
+                    <a href="walkthrough.html" class="text-gray-300 hover:text-dav-500 transition-colors">Walkthrough</a>
+                    <a href="tips.html" class="text-gray-300 hover:text-dav-500 transition-colors">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="mb-8">
+            <h1 class="font-cinzel text-4xl font-bold text-white mb-4">Builds Guide</h1>
+            <p class="text-gray-400">Optimal builds for each class and playstyle.</p>
+        </div>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-dav-400 mb-6">Mage Builds</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-dav-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-orange-400 mb-4">Primal Fire Mage</h3>
+                    <p class="text-gray-400 text-sm mb-3">Maximize fire damage with burn effects.</p>
+                    <div class="mb-4">
+                        <h4 class="text-sm font-bold text-gray-300 mb-2">Key Abilities</h4>
+                        <ul class="text-gray-500 text-xs space-y-1">
+                            <li>• Fireball / Inferno</li>
+                            <li>• Burn mastery</li>
+                            <li>• Elemental vulnerability</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Playstyle: Ranged damage dealer, keep distance</p>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-blue-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-blue-400 mb-4">Veilweaver Support</h3>
+                    <p class="text-gray-400 text-sm mb-3">Keep your team alive with barriers and healing.</p>
+                    <div class="mb-4">
+                        <h4 class="text-sm font-bold text-gray-300 mb-2">Key Abilities</h4>
+                        <ul class="text-gray-500 text-xs space-y-1">
+                            <li>• Barrier / Mana Shield</li>
+                            <li>• Healing surge</li>
+                            <li>• Spirit summoning</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Playstyle: Support, maintain team survival</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-red-400 mb-6">Warrior Builds</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-red-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-4">Champion Tank</h3>
+                    <p class="text-gray-400 text-sm mb-3">Draw enemy aggro and protect your team.</p>
+                    <div class="mb-4">
+                        <h4 class="text-sm font-bold text-gray-300 mb-2">Key Abilities</h4>
+                        <ul class="text-gray-500 text-xs space-y-1">
+                            <li>• Shield Wall / Taunt</li>
+                            <li>• Defensive stance</li>
+                            <li>• Team protection</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Playstyle: Frontline, absorb damage</p>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-yellow-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-yellow-400 mb-4">Destroyer DPS</h3>
+                    <p class="text-gray-400 text-sm mb-3">Massive damage with two-handed weapons.</p>
+                    <div class="mb-4">
+                        <h4 class="text-sm font-bold text-gray-300 mb-2">Key Abilities</h4>
+                        <ul class="text-gray-500 text-xs space-y-1">
+                            <li>• Heavy swings / Cleave</li>
+                            <li>• Momentum builder</li>
+                            <li>• Ground slam</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Playstyle: Slow but devastating attacks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-green-400 mb-6">Rogue Builds</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-green-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-green-400 mb-4">Assassin Crit</h3>
+                    <p class="text-gray-400 text-sm mb-3">Maximum critical damage from stealth.</p>
+                    <div class="mb-4">
+                        <h4 class="text-sm font-bold text-gray-300 mb-2">Key Abilities</h4>
+                        <ul class="text-gray-500 text-xs space-y-1">
+                            <li>• Backstab / Ambush</li>
+                            <li>• Critical chance boost</li>
+                            <li>• Stealth regeneration</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Playstyle: Stealth kill, high burst damage</p>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-cyan-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-cyan-400 mb-4">Artificer Utility</h3>
+                    <p class="text-gray-400 text-sm mb-3">Traps, bombs, and ranged poison attacks.</p>
+                    <div class="mb-4">
+                        <h4 class="text-sm font-bold text-gray-300 mb-2">Key Abilities</h4>
+                        <ul class="text-gray-500 text-xs space-y-1">
+                            <li>• Poison bombs</li>
+                            <li>• Caltrops / Traps</li>
+                            <li>• Ranged daggers</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-gray-700/50">
+                        <p class="text-gray-500 text-xs">Playstyle: Crowd control, sustained damage</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Team Composition Tips</h2>
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <ul class="text-gray-400 text-sm space-y-3">
+                    <li>• <span class="text-white">Always bring a healer</span> - Harding or Emmerich for support</li>
+                    <li>• <span class="text-white">Tank is essential</span> - Davrin can hold aggro</li>
+                    <li>• <span class="text-white">Mix damage types</span> - Physical + Magic for versatility</li>
+                    <li>• <span class="text-white">Match elements to enemies</span> - Some enemies are weak to specific elements</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dragon Age: Veilguard Wiki. Not affiliated with BioWare/EA.</p>
+        </div>
+    </footer>
+</body>
+</html>

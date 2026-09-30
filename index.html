@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Age: Veilguard Wiki - Complete Guide</title>
+    <meta name="description" content="Your ultimate guide to Dragon Age: Veilguard. Classes, companions, builds, and walkthrough for PC and consoles.">
+    <meta name="keywords" content="Dragon Age Veilguard guide, Dragon Age Veilguard wiki, Veilguard walkthrough, Dragon Age Veilguard classes, Veilguard builds">
+    <link rel="canonical" href="https://dragon-age-veilguard.wiki/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dav: { 500: '#8B5CF6', 600: '#7C3AED', 700: '#6D28D9' },
+                        dark: { 900: '#0a0a10', 800: '#12121a', 700: '#1a1a25' }
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0a10 0%, #12121a 50%, #0a0a10 100%); min-height: 100vh; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 40px rgba(139, 92, 246, 0.3); }
+    </style>
+</head>
+<body class="font-inter text-gray-100">
+    <header class="bg-dark-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-dav-500 to-dav-700 rounded-lg flex items-center justify-center">
+                        <span class="font-cinzel font-bold text-white text-lg">DA</span>
+                    </div>
+                    <span class="font-cinzel font-bold text-xl text-white hidden sm:block">Dragon Age: Veilguard</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-dav-500 hover:text-dav-400 transition-colors font-medium">Home</a>
+                    <a href="classes.html" class="text-gray-300 hover:text-dav-500 transition-colors">Classes</a>
+                    <a href="companions.html" class="text-gray-300 hover:text-dav-500 transition-colors">Companions</a>
+                    <a href="builds.html" class="text-gray-300 hover:text-dav-500 transition-colors">Builds</a>
+                    <a href="walkthrough.html" class="text-gray-300 hover:text-dav-500 transition-colors">Walkthrough</a>
+                    <a href="tips.html" class="text-gray-300 hover:text-dav-500 transition-colors">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-dav-600/20 via-transparent to-purple-900/10"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative">
+            <div class="text-center mb-12">
+                <h1 class="font-cinzel text-5xl md:text-6xl font-bold text-white mb-4">
+                    Dragon Age: <span class="text-dav-500">Veilguard</span>
+                </h1>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    The next chapter in the epic fantasy RPG series. Build your team, save Thedas.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+                <div class="bg-dark-800/80 rounded-xl border border-dav-500/30 p-4 text-center">
+                    <div class="text-2xl font-bold text-dav-500">PC, PS5, Xbox</div>
+                    <div class="text-gray-400 text-sm">Platforms</div>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                    <div class="text-2xl font-bold text-white">RPG</div>
+                    <div class="text-gray-400 text-sm">Genre</div>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                    <div class="text-2xl font-bold text-white">Action</div>
+                    <div class="text-gray-400 text-sm">Combat Style</div>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                    <div class="text-2xl font-bold text-white">Single Player</div>
+                    <div class="text-gray-400 text-sm">Mode</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Game Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <div class="text-4xl mb-3">⚔️</div>
+                <h3 class="font-cinzel text-lg font-bold text-white mb-2">Choose Your Class</h3>
+                <p class="text-gray-400 text-sm">Mage, Rogue, or Warrior. Each with unique abilities and playstyles.</p>
+            </div>
+            <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <div class="text-4xl mb-3">👥</div>
+                <h3 class="font-cinzel text-lg font-bold text-white mb-2">Build Your Team</h3>
+                <p class="text-gray-400 text-sm">Recruit companions with deep backstories and personal quests.</p>
+            </div>
+            <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <div class="text-4xl mb-3">🗡️</div>
+                <h3 class="font-cinzel text-lg font-bold text-white mb-2">Epic Combat</h3>
+                <p class="text-gray-400 text-sm">Fast-paced action combat with tactical depth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Explore Guides</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="classes.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-dav-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">🎭</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Classes</h3>
+                    <p class="text-gray-400 text-sm">All classes and specializations</p>
+                </div>
+            </a>
+
+            <a href="companions.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-purple-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">👤</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Companions</h3>
+                    <p class="text-gray-400 text-sm">All companions and their stories</p>
+                </div>
+            </a>
+
+            <a href="builds.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-red-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">📊</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Builds</h3>
+                    <p class="text-gray-400 text-sm">Best builds for each class</p>
+                </div>
+            </a>
+
+            <a href="walkthrough.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-yellow-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">📜</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Walkthrough</h3>
+                    <p class="text-gray-400 text-sm">Complete story walkthrough</p>
+                </div>
+            </a>
+
+            <a href="tips.html" class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 overflow-hidden">
+                <div class="h-32 bg-gradient-to-br from-green-500/20 to-dark-900 flex items-center justify-center">
+                    <span class="text-5xl">💡</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-cinzel text-lg font-bold text-white mb-1">Tips & Tricks</h3>
+                    <p class="text-gray-400 text-sm">Essential tips for new players</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dragon Age: Veilguard Wiki. Not affiliated with BioWare/EA.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walkthrough - Dragon Age: Veilguard Wiki</title>
+    <meta name="description" content="Complete Dragon Age: Veilguard walkthrough. All main quests, side quests, and story missions.">
+    <meta name="keywords" content="Dragon Age Veilguard walkthrough, Veilguard main quests, Veilguard story, Veilguard guide">
+    <link rel="canonical" href="https://dragon-age-veilguard.wiki/walkthrough.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dav: { 500: '#8B5CF6', 600: '#7C3AED', 700: '#6D28D9' },
+                        dark: { 900: '#0a0a10', 800: '#12121a', 700: '#1a1a25' }
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0a10 0%, #12121a 50%, #0a0a10 100%); min-height: 100vh; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 40px rgba(139, 92, 246, 0.3); }
+    </style>
+</head>
+<body class="font-inter text-gray-100">
+    <header class="bg-dark-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-dav-500 to-dav-700 rounded-lg flex items-center justify-center">
+                        <span class="font-cinzel font-bold text-white text-lg">DA</span>
+                    </div>
+                    <span class="font-cinzel font-bold text-xl text-white hidden sm:block">Dragon Age: Veilguard</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-gray-300 hover:text-dav-500 transition-colors">Home</a>
+                    <a href="classes.html" class="text-gray-300 hover:text-dav-500 transition-colors">Classes</a>
+                    <a href="companions.html" class="text-gray-300 hover:text-dav-500 transition-colors">Companions</a>
+                    <a href="builds.html" class="text-gray-300 hover:text-dav-500 transition-colors">Builds</a>
+                    <a href="walkthrough.html" class="text-dav-500 hover:text-dav-400 transition-colors font-medium">Walkthrough</a>
+                    <a href="tips.html" class="text-gray-300 hover:text-dav-500 transition-colors">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="mb-8">
+            <h1 class="font-cinzel text-4xl font-bold text-white mb-4">Walkthrough</h1>
+            <p class="text-gray-400">Complete story walkthrough with all missions.</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                <div class="text-3xl font-bold text-white">5</div>
+                <div class="text-gray-400 text-sm">Acts</div>
+            </div>
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                <div class="text-3xl font-bold text-white">30+</div>
+                <div class="text-gray-400 text-sm">Main Quests</div>
+            </div>
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                <div class="text-3xl font-bold text-white">50+</div>
+                <div class="text-gray-400 text-sm">Side Quests</div>
+            </div>
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-4 text-center">
+                <div class="text-3xl font-bold text-white">1</div>
+                <div class="text-gray-400 text-sm">Main Ending</div>
+            </div>
+        </div>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-dav-400 mb-6">Main Story Acts</h2>
+            <div class="space-y-4">
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-dav-500/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <span class="font-cinzel font-bold text-dav-400">Act 1</span>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-cinzel text-lg font-bold text-white mb-2">The Beginning</h3>
+                            <p class="text-gray-400 text-sm mb-3">Establish the Veilguard and recruit your first companions.</p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Key Objectives</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Meet the companions</li>
+                                        <li>• Establish the Lighthouse</li>
+                                        <li>• First major battle</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Unlocks</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Basic abilities</li>
+                                        <li>• Companion quests</li>
+                                        <li>• Fast travel</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <span class="font-cinzel font-bold text-purple-400">Act 2</span>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-cinzel text-lg font-bold text-white mb-2">The Blight Returns</h3>
+                            <p class="text-gray-400 text-sm mb-3">Investigate the returning Blight and its connection to the Elven gods.</p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Key Objectives</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Explore new regions</li>
+                                        <li>• Fight Blighted enemies</li>
+                                        <li>• Companion loyalty missions</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Unlocks</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Advanced abilities</li>
+                                        <li>• New regions</li>
+                                        <li>• Legendary gear</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-red-500/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <span class="font-cinzel font-bold text-red-400">Act 3</span>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-cinzel text-lg font-bold text-white mb-2">The Elven Gods</h3>
+                            <p class="text-gray-400 text-sm mb-3">Confront the true threat from the Elven pantheon.</p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Key Objectives</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Face the gods</li>
+                                        <li>• Major story revelations</li>
+                                        <li>• Final choices begin</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Unlocks</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Ultimate abilities</li>
+                                        <li>• God-tier weapons</li>
+                                        <li>• Multiple endings setup</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <span class="font-cinzel font-bold text-yellow-400">Act 4</span>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-cinzel text-lg font-bold text-white mb-2">The Final Push</h3>
+                            <p class="text-gray-400 text-sm mb-3">Prepare for the ultimate confrontation.</p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Key Objectives</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Final companion quests</li>
+                                        <li>• Gear optimization</li>
+                                        <li>• Enter the Fade</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Unlocks</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Mythic items</li>
+                                        <li>• Final area access</li>
+                                        <li>• Ending choices</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-dav-500/50 p-6">
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-dav-500/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <span class="font-cinzel font-bold text-dav-400">Act 5</span>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-cinzel text-lg font-bold text-dav-400 mb-2">The Conclusion</h3>
+                            <p class="text-gray-400 text-sm mb-3">The final battle to save Thedas.</p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Key Objectives</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Final boss battle</li>
+                                        <li>• Resolve all story threads</li>
+                                        <li>• See the ending</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-300 mb-2">Endings</h4>
+                                    <ul class="text-gray-500 text-xs space-y-1">
+                                        <li>• Save Thedas</li>
+                                        <li>• Companion fate depends on choices</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dragon Age: Veilguard Wiki. Not affiliated with BioWare/EA.</p>
+        </div>
+    </footer>
+</body>
+</html>
