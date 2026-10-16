@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquisitor Build Guide - Dragon Age: Veilguard</title>
+    <meta name="description" content="Complete Dragon Age: Veilguard Inquisitor build guide. Best class builds, skill trees, equipment choices, and combat strategies for all difficulty levels.">
+    <meta name="keywords" content="Dragon Age Veilguard Inquisitor build, Veilguard best class, Inquisitor skills guide, Dragon Age build guide">
+    <link rel="canonical" href="https://dragon-age-veilguard.wiki/inquisitor-guide.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        mage: { 400: '#9333EA', 500: '#7C3AED', 600: '#6D28D9' }
+                    },
+                    fontFamily: { 'title': ['Cinzel', 'serif'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4JW0DQ6TEN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4JW0DQ6TEN');
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%); font-family: 'Inter', sans-serif; }
+        .card-dargon { background: linear-gradient(135deg, rgba(147,51,234,0.15) 0%, rgba(26,26,46,0.95) 100%); border: 1px solid rgba(147,51,234,0.3); }
+        .card-dargon:hover { border-color: rgba(147,51,234,0.6); transform: translateY(-2px); }
+    </style>
+</head>
+<body class="text-gray-300 antialiased">
+    <header class="bg-obsidian-900/95 border-b border-mage-500/30 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-mage-500 to-purple-900 flex items-center justify-center">
+                        <span class="text-xl">🐉</span>
+                    </div>
+                    <div>
+                        <span class="font-title text-xl text-mage-400">DRAGON AGE</span>
+                        <span class="block text-xs text-gray-500 tracking-widest">VEILGUARD WIKI</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2 text-sm">
+                    <a href="/" class="px-3 py-2 text-gray-400 hover:text-mage-400 rounded transition-all">Home</a>
+                    <a href="inquisitor-guide.html" class="px-3 py-2 text-mage-400 bg-mage-500/10 rounded border border-mage-500/30">Builds</a>
+                    <a href="classes.html" class="px-3 py-2 text-gray-400 hover:text-mage-400 rounded transition-all">Classes</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <section class="text-center mb-12">
+            <h1 class="font-title text-4xl md:text-5xl text-mage-400 mb-4">INQUISITOR BUILD GUIDE</h1>
+            <p class="text-gray-400 max-w-2xl mx-auto">Master the Inquisitor with optimal builds</p>
+        </section>
+
+        <div class="h-0.5 bg-gradient-to-r from-transparent via-mage-500 to-transparent mb-12"></div>
+
+        <!-- Class Overview -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-mage-400 mb-6">⚔️ CLASSES OVERVIEW</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="card-dargon rounded-xl p-5 text-center">
+                    <span class="text-4xl">🗡️</span>
+                    <h3 class="font-bold text-white mt-2">Warrior</h3>
+                    <p class="text-gray-500 text-sm">Tank,Damage</p>
+                </div>
+                <div class="card-dargon rounded-xl p-5 text-center">
+                    <span class="text-4xl">🏹</span>
+                    <h3 class="font-bold text-white mt-2">Rogue</h3>
+                    <p class="text-gray-500 text-sm">Melee,Stealth</p>
+                </div>
+                <div class="card-dargon rounded-xl p-5 text-center">
+                    <span class="text-4xl">🔮</span>
+                    <h3 class="font-bold text-white mt-2">Mage</h3>
+                    <p class="text-gray-500 text-sm">Magic,Control</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Warrior Builds -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-red-400 mb-6">⚔️ WARRIOR BUILDS</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Tank Build</h3>
+                    <ul class="text-gray-400 text-sm space-y-1">
+                        <li>• <span class="text-red-400">Shield Wall</span> - Block & Counter</li>
+                        <li>• <span class="text-red-400">Bastion</span> - Damage reduction</li>
+                        <li>• <span class="text-red-400">War Cry</span> - Aggro generation</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">DPS Build</h3>
+                    <ul class="text-gray-400 text-sm space-y-1">
+                        <li>• <span class="text-red-400">Berserker</span> - Rage & Cleave</li>
+                        <li>• <span class="text-red-400">Champion</span> - Balanced offense</li>
+                        <li>• <span class="text-red-400">Reaver</span> - Lifesteal DPS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rogue Builds -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-green-400 mb-6">🏹 ROGUE BUILDS</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Assassin Build</h3>
+                    <ul class="text-gray-400 text-sm space-y-1">
+                        <li>• <span class="text-green-400">Stealth</span> - Backstab bonus</li>
+                        <li>• <span class="text-green-400">Poison</span> - DoT damage</li>
+                        <li>• <span class="text-green-400">Shadow</span> - Escape tools</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Duelist Build</h3>
+                    <ul class="text-gray-400 text-sm space-y-1">
+                        <li>• <span class="text-green-400">Precision</span> - Crit damage</li>
+                        <li>• <span class="text-green-400">Flurry</span> - Attack speed</li>
+                        <li>• <span class="text-green-400">Evasion</span> - Dodge mechanics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mage Builds -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-purple-400 mb-6">🔮 MAGE BUILDS</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Elementalist Build</h3>
+                    <ul class="text-gray-400 text-sm space-y-1">
+                        <li>• <span class="text-purple-400">Fire</span> - AoE burst</li>
+                        <li>• <span class="text-purple-400">Ice</span> - Crowd control</li>
+                        <li>• <span class="text-purple-400">Lightning</span> - Chain damage</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Necromancer Build</h3>
+                    <ul class="text-gray-400 text-sm space-y-1">
+                        <li>• <span class="text-purple-400">Summoning</span> - Minion army</li>
+                        <li>• <span class="text-purple-400">Death</span> - Life drain</li>
+                        <li>• <span class="text-purple-400">Curse</span> - Debuffs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equipment -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-mage-400 mb-6">🎒 BEST EQUIPMENT</h2>
+            <div class="grid md:grid-cols-4 gap-4">
+                <div class="card-dargon rounded-xl p-4 text-center">
+                    <span class="text-3xl">⚔️</span>
+                    <h3 class="font-bold text-white text-sm mt-2">Weapon</h3>
+                    <p class="text-mage-400 text-xs">Legendary Blade</p>
+                </div>
+                <div class="card-dargon rounded-xl p-4 text-center">
+                    <span class="text-3xl">🛡️</span>
+                    <h3 class="font-bold text-white text-sm mt-2">Armor</h3>
+                    <p class="text-mage-400 text-xs">Dragon Scale</p>
+                </div>
+                <div class="card-dargon rounded-xl p-4 text-center">
+                    <span class="text-3xl">💍</span>
+                    <h3 class="font-bold text-white text-sm mt-2">Accessory</h3>
+                    <p class="text-mage-400 text-xs">Ring of Power</p>
+                </div>
+                <div class="card-dargon rounded-xl p-4 text-center">
+                    <span class="text-3xl">🧪</span>
+                    <h3 class="font-bold text-white text-sm mt-2">Consumables</h3>
+                    <p class="text-mage-400 text-xs">Health Draughts</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-mage-500/10 py-8 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dragon Age: Veilguard Guide. Not affiliated with BioWare.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Guide - Dragon Age: Veilguard</title>
+    <meta name="description" content="Complete Dragon Age: Veilguard skill guide with all ability descriptions, skill trees for each class, and optimal skill loadouts for combat.">
+    <meta name="keywords" content="Dragon Age Veilguard skills, Veilguard ability guide, skill tree, combat abilities, mage skills">
+    <link rel="canonical" href="https://dragon-age-veilguard.wiki/skill-guide.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        mage: { 400: '#9333EA', 500: '#7C3AED', 600: '#6D28D9' }
+                    },
+                    fontFamily: { 'title': ['Cinzel', 'serif'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4JW0DQ6TEN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4JW0DQ6TEN');
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%); font-family: 'Inter', sans-serif; }
+        .card-dargon { background: linear-gradient(135deg, rgba(147,51,234,0.15) 0%, rgba(26,26,46,0.95) 100%); border: 1px solid rgba(147,51,234,0.3); }
+    </style>
+</head>
+<body class="text-gray-300 antialiased">
+    <header class="bg-obsidian-900/95 border-b border-mage-500/30 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-mage-500 to-purple-900 flex items-center justify-center">
+                        <span class="text-xl">🐉</span>
+                    </div>
+                    <div>
+                        <span class="font-title text-xl text-mage-400">DRAGON AGE</span>
+                        <span class="block text-xs text-gray-500 tracking-widest">VEILGUARD WIKI</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2 text-sm">
+                    <a href="/" class="px-3 py-2 text-gray-400 hover:text-mage-400 rounded transition-all">Home</a>
+                    <a href="skill-guide.html" class="px-3 py-2 text-mage-400 bg-mage-500/10 rounded border border-mage-500/30">Skills</a>
+                    <a href="classes.html" class="px-3 py-2 text-gray-400 hover:text-mage-400 rounded transition-all">Classes</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <section class="text-center mb-12">
+            <h1 class="font-title text-4xl md:text-5xl text-mage-400 mb-4">SKILL GUIDE</h1>
+            <p class="text-gray-400 max-w-2xl mx-auto">Complete ability reference for all classes</p>
+        </section>
+
+        <div class="h-0.5 bg-gradient-to-r from-transparent via-mage-500 to-transparent mb-12"></div>
+
+        <!-- Warrior Skills -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-red-400 mb-6">⚔️ WARRIOR SKILLS</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">🛡️ Shield Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-red-400">Shield Bash</span> - Stun enemies with shield</li>
+                        <li><span class="text-red-400">Shield Wall</span> - Block incoming damage</li>
+                        <li><span class="text-red-400">Throw Shield</span> - Ranged shield attack</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">⚔️ Sword Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-red-400">Cleave</span> - AoE sword attack</li>
+                        <li><span class="text-red-400">Pommel Strike</span> - Daze enemy</li>
+                        <li><span class="text-red-400">Whirlwind</span> - Spin attack all nearby</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">💪 Rage Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-red-400">Berserk</span> - Increased damage, lifesteal</li>
+                        <li><span class="text-red-400">War Cry</span> - Draw aggro</li>
+                        <li><span class="text-red-400">Battle Cry</span> - Team damage buff</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">🛡️ Defense Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-red-400">Parry</span> - Counterattack after block</li>
+                        <li><span class="text-red-400">Bastion</span> - Damage reduction</li>
+                        <li><span class="text-red-400">Fortress</span> - Immunity frames</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rogue Skills -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-green-400 mb-6">🏹 ROGUE SKILLS</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">🗡️ Dagger Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-green-400">Backstab</span> - High damage from behind</li>
+                        <li><span class="text-green-400">Flurry</span> - Rapid attacks</li>
+                        <li><span class="text-green-400">Garrote</span> - Silent kill</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">🏹 Bow Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-green-400">Piercing Shot</span> - Arrow through enemies</li>
+                        <li><span class="text-green-400">Snipe</span> - Long range precise</li>
+                        <li><span class="text-green-400">Arrow Storm</span> - AoE arrow rain</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">💨 Stealth Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-green-400">Stealth</span> - Become invisible</li>
+                        <li><span class="text-green-400">Shadow Step</span> - Teleport behind</li>
+                        <li><span class="text-green-400">Smoke Bomb</span> - Escape tool</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">☠️ Poison Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-green-400">Poison Blade</span> - Apply DoT</li>
+                        <li><span class="text-green-400">Toxic Cloud</span> - AoE poison</li>
+                        <li><span class="text-green-400">Deadly Venom</span> - Burst poison</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mage Skills -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-purple-400 mb-6">🔮 MAGE SKILLS</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">🔥 Fire Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-purple-400">Fireball</span> - AoE fire burst</li>
+                        <li><span class="text-purple-400">Flame Wave</span> - Cone attack</li>
+                        <li><span class="text-purple-400">Meteor</span> - Massive AoE</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">❄️ Ice Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-purple-400">Frost Bolt</span> - Single target</li>
+                        <li><span class="text-purple-400">Ice Storm</span> - Slow field</li>
+                        <li><span class="text-purple-400">Glacial Spike</span> - Damage + freeze</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">⚡ Lightning Skills</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-purple-400">Chain Lightning</span> - Jump between</li>
+                        <li><span class="text-purple-400">Thunderstorm</span> - Area denial</li>
+                        <li><span class="text-purple-400">Static Discharge</span> - Burst damage</li>
+                    </ul>
+                </div>
+                <div class="card-dargon rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">💀 Necromancy</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="text-purple-400">Summon Skeleton</span> - Minion</li>
+                        <li><span class="text-purple-400">Death Beam</span> - Lifesteal ray</li>
+                        <li><span class="text-purple-400">Curse</span> - Weaken enemy</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ultimate Skills -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-mage-400 mb-6">⭐ ULTIMATE ABILITIES</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="card-dargon rounded-xl p-5 text-center">
+                    <h3 class="font-bold text-white mb-2">⚔️ Warrior Ultimate</h3>
+                    <p class="text-gray-500 text-xs">Devastating Strike - Massive single target damage</p>
+                </div>
+                <div class="card-dargon rounded-xl p-5 text-center">
+                    <h3 class="font-bold text-white mb-2">🏹 Rogue Ultimate</h3>
+                    <p class="text-gray-500 text-xs">Death Mark - Execute on marked target</p>
+                </div>
+                <div class="card-dargon rounded-xl p-5 text-center">
+                    <h3 class="font-bold text-white mb-2">🔮 Mage Ultimate</h3>
+                    <p class="text-gray-500 text-xs">Arcane Explosion - Massive AoE magic damage</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill Combo Tips -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-green-400 mb-6">💡 SKILL COMBOS</h2>
+            <div class="card-dargon rounded-xl p-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-bold text-white mb-3">Warrior Combo</h3>
+                        <p class="text-gray-400 text-sm">Shield Bash → Cleave → Whirlwind → Berserk</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-3">Rogue Combo</h3>
+                        <p class="text-gray-400 text-sm">Stealth → Backstab → Flurry → Garrote</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-3">Mage Combo</h3>
+                        <p class="text-gray-400 text-sm">Ice Storm → Fireball → Chain Lightning</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-3">Team Combo</h3>
+                        <p class="text-gray-400 text-sm">Aggro → CC → Burst → Cleanup</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-mage-500/10 py-8 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dragon Age: Veilguard Guide. Not affiliated with BioWare.</p>
+        </div>
+    </footer>
+</body>
+</html>
